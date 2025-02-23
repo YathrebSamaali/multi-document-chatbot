@@ -22,7 +22,7 @@ Before running the application, make sure you have the following installed:
 
 ## Screenshot
 
-![Capture d'écran du projet](./images/screenshot.png)
+![Capture d'écran du projet](./images/chat_app.PNG)
 
 
 ## Installation ⚙️
