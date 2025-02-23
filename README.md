@@ -20,7 +20,10 @@ Before running the application, make sure you have the following installed:
 - **Streamlit** for the user interface  
 - **LangChain**, **HuggingFaceEmbeddings**, **FAISS**, **LlamaCpp**, **PyPDFLoader**, and **python-docx** for document processing and chatbot.  
 
----
+## Screenshot
+
+![Capture d'écran du projet](./images/screenshot.png)
+
 
 ## Installation ⚙️
 1. Clone the repository:
@@ -41,7 +44,6 @@ Before running the application, make sure you have the following installed:
     pip install -r requirements.txt
     ```
 
----
 
 ## Dependencies 📦
 The main modules used in this project are:
@@ -56,7 +58,7 @@ The main modules used in this project are:
 
 You can install them manually or by using the `requirements.txt` file.
 
----
+
 
 ## Usage 🚀
 1. Run the Streamlit application:
@@ -74,7 +76,7 @@ You can install them manually or by using the `requirements.txt` file.
 5. **Download the conversation** using the provided button.
 
 
----
+
 
 ## How It Works ⚙️
 1. **File Upload**: The user uploads PDF, DOCX, or PPTX files.
@@ -83,14 +85,13 @@ You can install them manually or by using the `requirements.txt` file.
 4. **Contextual Search**: Embeddings are stored in a **FAISS** index for fast retrieval.
 5. **Conversational Chatbot**: `LlamaCpp` is used to generate contextual responses based on user queries.
 
----
+
 
 ## Model Used 🤖
 The chatbot uses the model `mistral-7b-instruct-v0.1.Q4_K_M.gguf` with `LlamaCpp`. Be sure to download the model from [HuggingFace](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf) and place it in your project directory. Update the model path in the code:
 ```bash
 model_path = "mistral-7b-instruct-v0.1.Q4_K_M.gguf"
-
----
+```
 
 ## Important Reminder ⚠️
 Please **do not forget to download the model** from Hugging Face before running the chatbot. The model is required for the chatbot to work properly.  
